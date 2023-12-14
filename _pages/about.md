@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm 張涵俐 Hanli Zhang, a Master student in the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania. I'm interested in computer vision and robotics. I received my B.S. degree in Math from Qufu Normal University in 2018. My working experience is on [my linkedin](https://www.linkedin.com/in/hanli-zhang)
+I'm 張涵俐 Hanli Zhang, a Master student in the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania. I'm interested in machine learning and robotics. I received my B.S. degree in Math from Qufu Normal University in 2018. My working experience is on [my linkedin](https://www.linkedin.com/in/hanli-zhang).
 
 Contact me at [hanlizh@seas.upenn.edu](mailto:hanlizh@seas.upenn.edu).
 
