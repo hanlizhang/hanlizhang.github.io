@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /industry/
-title: Industry Experience
+title: industry
 description: Materials for my industry experience.
 nav: true
 nav_order: 5
