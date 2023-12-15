@@ -54,5 +54,5 @@
 - title: Skills
   type: list
   contents:
-    - Programming: Python (TensorFlow, PyTorch, cvxpy, Keras, etc.), C/C++, Matlab, R, Java
-    - Miscellaneous: Linux, Shell, ROS1/2, Git, Docker, LATEX, Power BI
+    - Python (TensorFlow, PyTorch, cvxpy, Keras, etc.), C/C++, Matlab, R, Java
+    - Linux, Shell, ROS1/2, Git, Docker, LATEX, Power BI
