@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: collaborators
 description: for the projects and papers
-nav: true
+nav: false
 nav_order: 6
 
 profiles:
