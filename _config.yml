@@ -158,7 +158,7 @@ disqus_shortname: x # put your disqus shortname
 #     rss_url: https://medium.com/@al-folio/feed
 external_sources:
   - name: x.com
-    rss_url: https://x.com/hanli_zhang_/status/1746040183341129821?s=46&t=DwPim4G37WIXWnliR0lfQA
+    rss_url: https://rss.app/feeds/hGjmz1DTNDjdnPCO.xml
 
 # -----------------------------------------------------------------------------
 # Collections
