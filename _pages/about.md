@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://pennovation.upenn.edu/'>PENNOVATION</a>. 3401 Grays Ferry Ave. 610-909-9485.
+subtitle: <a href='pennovation.upenn.edu'>PENNOVATION</a>. 3401 Grays Ferry Ave. 610-909-9485.
 
 profile:
   align: right
