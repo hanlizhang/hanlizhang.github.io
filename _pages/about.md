@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.grasp.upenn.edu'>UPenn</a>. 3401 Grays Ferry Ave. 610-909-9485.
+subtitle: <a href='https://pennovation.upenn.edu/'>PENNOVATION</a>. 3401 Grays Ferry Ave. 610-909-9485.
 
 profile:
   align: right
@@ -19,9 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm 张涵俐 Hanli Zhang, a Master student in the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania. I'm interested in machine learning and robotics. My working experience is on [my linkedin](https://www.linkedin.com/in/hanli-zhang).
+I'm 张涵俐 Hanli Zhang, a Master student in the [GRASP Lab](https://www.grasp.upenn.edu/) at the [University of Pennsylvania](https://www.upenn.edu/). I'm interested in Autonomous Systems, Multi-agent Systems, Optimal Control, Robotics, and Machine Learning. My working experience is on [my linkedin](https://www.linkedin.com/in/hanli-zhang).
 
-Contact me at [hanlizh@seas.upenn.edu](mailto:hanlizh@seas.upenn.edu).
+Contact me at [hanlizh [at] seas [dot] upenn [dot] edu](mailto:hanlizh@seas.upenn.edu).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
