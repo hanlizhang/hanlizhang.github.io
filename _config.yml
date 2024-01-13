@@ -146,24 +146,19 @@ giscus:
   emit_metadata: 0
   lang: en
 
-<!-- Blog Post Content -->
-<div class="blog-post">
-  <h2>Visiting Nintendo</h2>
-  <p>Had a great time seeing all the cool exhibits at Nintendo!</p>
-  <img src="blog/IMG_3154.JPG" alt="Photo taken at Nintendo">
-  <p>Please <a href="https://arxiv.org/abs/2401.04960" target="_blank">click on the link</a> to view more.</p>
-</div>
+# Disqus comments (DEPRECATED)
+disqus_shortname: al-folio # put your disqus shortname
+# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# # Disqus comments (DEPRECATED)
-# disqus_shortname: al-folio # put your disqus shortname
-# # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# # External sources.
-# # If you have blog posts published on medium.com or other external sources,
-# # you can display them in your blog by adding a link to the RSS feed.
+# External sources.
+# If you have blog posts published on medium.com or other external sources,
+# you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
+external_sources:
+  - name: twitter.com
+    rss_url: https://x.com/hanli_zhang_/status/1746040183341129821?s=46&t=DwPim4G37WIXWnliR0lfQA
 
 # -----------------------------------------------------------------------------
 # Collections
