@@ -20,9 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 I'm 张涵俐 Hanli Zhang, a PhD student at [EPFL LASA](https://www.epfl.ch/labs/lasa/) under the supervision of [Prof. Aude Billard](https://people.epfl.ch/aude.billard), based in Lausanne, Switzerland.
 
-My background spans robotics, machine learning, optimal control, and human-robot interaction. Previously, I worked on AGV localization, outdoor robot perception, and autonomous systems, including drag-aware trajectory generation for quadrotors and perception/navigation on autonomous vehicle platforms.
+My work spans robotics, machine learning, and human-robot interaction, with previous experience in AGV localization, robot perception, and drag-aware planning for quadrotors.
 
-My interests are in autonomous systems, drones, and intelligent assistant robots.
+I'm interested in autonomous systems, drones, and intelligent assistant robots.
 
 Contact me at hanli.zhang [at] epfl [dot] ch.
 
