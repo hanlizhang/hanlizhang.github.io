@@ -94,8 +94,13 @@ pagination:
     <hr>
   {% endif %}
 
+  {% assign blog_posts = site.posts %}
+  {% if paginator and paginator.posts %}
+    {% assign blog_posts = paginator.posts %}
+  {% endif %}
+
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in blog_posts %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -163,6 +168,8 @@ pagination:
     {% endfor %}
   </ul>
 
-  {% include pagination.html %}
+  {% if paginator %}
+    {% include pagination.html %}
+  {% endif %}
 
 </div>

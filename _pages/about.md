@@ -24,7 +24,7 @@ My background spans robotics, machine learning, optimal control, and human-robot
 
 My interests are in autonomous systems, drones, and intelligent assistant robots.
 
-Contact me at [hanli.zhang@epfl.ch](mailto:hanli.zhang@epfl.ch).
+Contact me at hanli.zhang [at] epfl [dot] ch.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
