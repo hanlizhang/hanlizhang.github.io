@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We submitted our paper to L4DC 2024.
+I started my PhD at EPFL LASA in Lausanne, supervised by Prof. Aude Billard.

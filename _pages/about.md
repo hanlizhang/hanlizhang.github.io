@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://pennovation.upenn.edu'>PENNOVATION</a>. 3401 Grays Ferry Ave. 610-909-9485.
+subtitle: Lausanne, Switzerland.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>GRASP</p>
-    <p>3401 Grays Ferry Ave</p>
-    <p>Philadelphia, PA 19146</p>
+    <p><a href="https://www.epfl.ch/labs/lasa/">EPFL LASA</a></p>
+    <p>Lausanne, Switzerland</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
@@ -19,9 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm 张涵俐 Hanli Zhang, a Master student in the [GRASP Lab](https://www.grasp.upenn.edu/) at the [University of Pennsylvania](https://www.upenn.edu/). I'm interested in Autonomous Systems, Multi-agent Systems, Optimal Control, Robotics, and Machine Learning. My working experience is on [my linkedin](https://www.linkedin.com/in/hanli-zhang).
+I'm 张涵俐 Hanli Zhang, a PhD student at [EPFL LASA](https://www.epfl.ch/labs/lasa/) under the supervision of [Prof. Aude Billard](https://people.epfl.ch/aude.billard), based in Lausanne, Switzerland.
 
-Contact me at [hanlizh [at] seas [dot] upenn [dot] edu](mailto:hanlizh@seas.upenn.edu).
+My background spans robotics, machine learning, optimal control, and human-robot interaction. Previously, I worked on AGV localization, outdoor robot perception, and autonomous systems, including drag-aware trajectory generation for quadrotors and perception/navigation on autonomous vehicle platforms.
+
+My interests are in autonomous systems, drones, and intelligent assistant robots.
+
+Contact me at [hanli.zhang@epfl.ch](mailto:hanli.zhang@epfl.ch).
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

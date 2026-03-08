@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Data-aware Trajectory Optimization with Air Drag
-description: This project, conducted at the University of Pennsylvania, GRASP Lab, focuses on optimizing trajectories considering air drag. It integrates data-aware approaches to enhance trajectory planning and optimization in aerial vehicles.
+title: Drag-Aware Trajectory Generation for Quadrotor Systems
+description: Trajectory generation for quadrotor systems with explicit drag-aware modeling and optimization.
 img: assets/img/2.jpg
 importance: 1
 category: work
 related_publications: 
 ---
 
-Detailed Project Description: The project aims to refine trajectory optimization processes by incorporating data-driven insights into air drag effects. This approach is pivotal in enhancing the accuracy and efficiency of flight paths in complex aerial environments.
+This project explores dynamics-aware and drag-aware trajectory generation for quadrotor systems, focusing on robust and efficient trajectories under aerodynamic effects.
+
+[Video](/assets/video/CoRL_video_draft_0626.mp4)  
+[Repository](https://github.com/hanlizhang/AeroWrenchPlanner)  
+[Paper](https://arxiv.org/abs/2401.04960)

@@ -4,9 +4,9 @@
     - name: Full Name
       value: Hanli Zhang
     - name: Address
-      value: 3401 Grays Ferry Ave, Philadelphia PA
+      value: Lausanne, Switzerland
     - name: Contact
-      value: (610)909-9485, hanlizh@seas.upenn.edu
+      value: (+41)762620085, hanli.zhang@epfl.ch
     - name: Website
       value: hanlizhang.github.io
 
@@ -28,18 +28,36 @@
 - title: Research Projects
   type: time_table
   contents:
-    - title: ADMM-based Optimal Control for Quadrotor Dynamics with Air Drag
+    - title: Drag-Aware Trajectory Generation for Quadrotor Systems
       institution: University of Pennsylvania, GRASP Lab
-      year: 2023 - Present
-    - title: Data-aware Trajectory Optimization with Air Drag
-      institution: University of Pennsylvania, GRASP Lab
-      year: 2023 - Present
-    - title: Rangefinder-Calibrated Monocular Depth Estimation on F1/10 Auto-Racing Cars
+      year: 2023 - 2024
+      linkitems:
+        - link: /assets/video/CoRL_video_draft_0626.mp4
+          linkname: video
+        - link: https://github.com/hanlizhang/AeroWrenchPlanner
+          linkname: repo
+        - link: https://arxiv.org/abs/2401.04960
+          linkname: paper
+        - link: /projects/project_2_data-aware_trajectory_optimization_with_air_drag/
+          linkname: details
+
+    - title: F1TENTH Autonomous Perception & Navigation
       institution: University of Pennsylvania, xLAB
       year: 2023
-    - title: Model Predictive Control (MPC) for Autonomous Racing Cars
-      institution: University of Pennsylvania, xLAB
-      year: 2023
+      linkitems:
+        - link: /assets/video/f1tenth_sakura.mov
+          linkname: video
+        - link: https://github.com/hanlizhang/DepthNav
+          linkname: repo
+        - link: /projects/project_3_rangefinder-calibrated_monocular_depth_estimation_on_f1_10_auto-racing_cars/
+          linkname: details
+
+    - title: Coordination-Aware Modeling for Four-Limb Human-Robot Manipulation
+      institution: EPFL LASA
+      year: 2024 - Present
+      linkitems:
+        - link: /projects/project_5_coordination-aware_modeling_for_four-limb_human-robot_manipulation/
+          linkname: details
 
 - title: Work Experience
   type: time_table
