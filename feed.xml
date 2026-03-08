@@ -1,2 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://hanlizhang.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hanlizhang.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-08T21:39:42+00:00</updated><id>https://hanlizhang.github.io/feed.xml</id><title type="html">张涵俐 Hanli Zhang</title><subtitle>张涵俐 Hanli Zhang&apos;s personal website. Current a PhD student at EPFL LASA, supervised by Prof. Aude Billard. Interests are in autonomous systems, drones, and intelligent assistant robots.
-</subtitle><entry><title type="html">Latest updates on X</title><link href="https://hanlizhang.github.io/blog/2026/x-updates/" rel="alternate" type="text/html" title="Latest updates on X" /><published>2026-03-08T19:10:00+00:00</published><updated>2026-03-08T19:10:00+00:00</updated><id>https://hanlizhang.github.io/blog/2026/x-updates</id><content type="html" xml:base="https://hanlizhang.github.io/blog/2026/x-updates/"><![CDATA[]]></content><author><name></name></author><category term="external-posts" /><category term="updates" /><summary type="html"><![CDATA[posts and updates from my X account]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://hanlizhang.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hanlizhang.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-03-08T21:51:16+00:00</updated><id>https://hanlizhang.github.io/feed.xml</id><title type="html">张涵俐 Hanli Zhang</title><subtitle>张涵俐 Hanli Zhang&apos;s personal website. Current a PhD student at EPFL LASA, supervised by Prof. Aude Billard. Interests are in autonomous systems, drones, and intelligent assistant robots.
+</subtitle><entry><title type="html">Drag-Aware Quadrotor Trajectory Video</title><link href="https://hanlizhang.github.io/blog/2023/videos/" rel="alternate" type="text/html" title="Drag-Aware Quadrotor Trajectory Video" /><published>2023-04-24T21:01:00+00:00</published><updated>2023-04-24T21:01:00+00:00</updated><id>https://hanlizhang.github.io/blog/2023/videos</id><content type="html" xml:base="https://hanlizhang.github.io/blog/2023/videos/"><![CDATA[<p>This is a demonstration video for drag-aware trajectory generation on quadrotor systems.</p>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <video src="/assets/video/CoRL_video_draft_0626.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls="" />
+
+  
+
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  
+
+  <video src="/assets/video/CoRL_video_draft_0626.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls="" />
+
+  
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    Quadrotor drag-aware trajectory demonstration.
+</div>]]></content><author><name></name></author><category term="paper-posts" /><category term="quadrotor," /><category term="trajectory," /><category term="robotics" /><summary type="html"><![CDATA[demonstration video for drag-aware trajectory generation]]></summary></entry></feed>
