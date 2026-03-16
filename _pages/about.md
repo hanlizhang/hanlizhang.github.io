@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm 张涵俐 Hanli Zhang, a PhD student at [EPFL LASA](https://www.epfl.ch/labs/lasa/) under the supervision of [Prof. Aude Billard](https://people.epfl.ch/aude.billard), based in Lausanne, Switzerland.
+I'm 张涵俐 Hanli Zhang, a robotics researcher at [EPFL LASA](https://www.epfl.ch/labs/lasa/) under the supervision of [Prof. Aude Billard](https://people.epfl.ch/aude.billard), based in Lausanne, Switzerland.
 
 My work spans robotics, machine learning, and human-robot interaction, with previous experience in AGV localization, robot perception, and drag-aware planning for quadrotors.
 
 I'm interested in autonomous systems, drones, and intelligent assistant robots.
 
-Contact me at hanli.zhang [at] epfl [dot] ch.
+Contact me at hanlizhangzhl [at] gmail [dot] com.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
