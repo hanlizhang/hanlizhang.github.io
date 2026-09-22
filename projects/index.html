@@ -9,10 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>projects | 张涵俐 Hanli Zhang</title>
+    <title>projects | Hanli Zhang · Robotics & AI</title>
     <meta name="author" content="Hanli  Zhang" />
     <meta name="description" content="A growing collection of your cool projects." />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <meta name="keywords" content="robotics, machine learning, autonomous systems, SLAM, motion planning, robot perception" />
 
 
     <!-- Bootstrap & MDB -->
@@ -51,60 +51,42 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Hanli Zhang home">
+        <span class="brand-mark">HZ</span>
+        <span class="brand-name">Hanli Zhang <small>张涵俐</small></span>
+      </a>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/">张涵俐 Hanli Zhang</a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
-              </li>
-              
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fa-solid fa-moon"></i>
-                  <i class="fa-solid fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap align-items-sm-center">
+          <li class="nav-item"><a class="nav-link" href="/#work">work</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#experience">experience</a></li>
+          <li class="nav-item "><a class="nav-link" href="/cv/">résumé</a></li>
+          <li class="nav-item nav-github"><a class="nav-link" href="https://github.com/hanlizhang" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+              <i class="fa-solid fa-moon" aria-hidden="true"></i>
+              <i class="fa-solid fa-sun" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <progress id="progress" value="0"><div class="progress-container"><span class="progress-bar"></span></div></progress>
+</header>
 
 
     <!-- Content -->
@@ -127,107 +109,30 @@
   <div class="grid"><!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="/projects/project_1_admm-based_optimal_control_for_quadrotor_dynamics_with_air_drag/">
-      <div class="card hoverable"><figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/1-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/1-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/1.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">ADMM-based Optimal Control for Quadrotor Dynamics with Air Drag</h2>
-          <p class="card-text">This project at the University of Pennsylvania's GRASP Lab involves advanced control techniques for quadrotors considering air drag. The focus is on applying Alternating Direction Method of Multipliers (ADMM) for optimal control in dynamic environments with air drag factors.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
   <a href="/projects/project_2_data-aware_trajectory_optimization_with_air_drag/">
       <div class="card hoverable"><figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/quad_lcd_demo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/quad_lcd_demo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/quad_lcd_demo-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/2.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/quad_lcd_demo.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
 </figure>
 
         <div class="card-body">
           <h2 class="card-title text-lowercase">Drag-Aware Trajectory Generation for Quadrotor Systems</h2>
-          <p class="card-text">Trajectory generation for quadrotor systems with explicit drag-aware modeling and optimization.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/project_3_rangefinder-calibrated_monocular_depth_estimation_on_f1_10_auto-racing_cars/">
-      <div class="card hoverable"><figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/3-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/3-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/3.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">F1TENTH Autonomous Perception &amp; Navigation</h2>
-          <p class="card-text">Perception and navigation methods for F1TENTH autonomous racing platforms.</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div><!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/projects/project_4_model_predictive_control_(mpc)_for_autonomous_racing_cars/">
-      <div class="card hoverable"><figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/4-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/4-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/4-1400.webp" />
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/4.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
-  </picture>
-
-</figure>
-
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">Model Predictive Control (MPC) for Autonomous Racing Cars</h2>
-          <p class="card-text">This project at the University of Pennsylvania's xLAB involves applying Model Predictive Control (MPC) techniques to improve performance and safety in autonomous racing cars. The project explores advanced MPC algorithms for dynamic and high-speed autonomous driving.</p>
-          <div class="row ml-1 mr-1 p-0">
+          <p class="card-text">Learned drag-aware trajectory planning with Crazyflie sim-to-real validation.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/hanlizhang/AeroWrenchPlanner"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -259,6 +164,37 @@
         </div>
       </div>
     </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/project_3_rangefinder-calibrated_monocular_depth_estimation_on_f1_10_auto-racing_cars/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/f1tenth_demo-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/f1tenth_demo-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/f1tenth_demo-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/f1tenth_demo.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">F1TENTH Autonomous Perception &amp; Navigation</h2>
+          <p class="card-text">Monocular depth, calibrated range sensing, and real-time edge inference for F1TENTH.</p>
+          <div class="row ml-1 mr-1 p-0"><div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="https://github.com/hanlizhang/DepthNav"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
   </div>
   <h2 class="category">fun</h2>
@@ -271,10 +207,9 @@
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        &copy; Copyright 2026 Hanli  Zhang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        &copy; Copyright 2026 Hanli  Zhang. Robotics · Applied AI · Autonomous Systems
 
       </div>
     </footer>

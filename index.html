@@ -9,11 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>张涵俐 Hanli Zhang</title>
+    <title>Hanli Zhang · Robotics & AI</title>
     <meta name="author" content="Hanli  Zhang" />
-    <meta name="description" content="张涵俐 Hanli Zhang's personal website. Currently a robotics researcher at EPFL LASA, supervised by Prof. Aude Billard. Interests are in autonomous systems, drones, and intelligent assistant robots.
-" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <meta name="description" content="Robotics researcher building learning-enabled systems for autonomy, perception, planning, and human-robot interaction." />
+    <meta name="keywords" content="robotics, machine learning, autonomous systems, SLAM, motion planning, robot perception" />
 
 
     <!-- Bootstrap & MDB -->
@@ -52,219 +51,233 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Hanli Zhang home">
+        <span class="brand-mark">HZ</span>
+        <span class="brand-name">Hanli Zhang <small>张涵俐</small></span>
+      </a>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
-              </li>
-              
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fa-solid fa-moon"></i>
-                  <i class="fa-solid fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap align-items-sm-center">
+          <li class="nav-item"><a class="nav-link" href="/#work">work</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#experience">experience</a></li>
+          <li class="nav-item "><a class="nav-link" href="/cv/">résumé</a></li>
+          <li class="nav-item nav-github"><a class="nav-link" href="https://github.com/hanlizhang" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+              <i class="fa-solid fa-moon" aria-hidden="true"></i>
+              <i class="fa-solid fa-sun" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <progress id="progress" value="0"><div class="progress-container"><span class="progress-bar"></span></div></progress>
+</header>
 
 
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- about.html -->
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      张涵俐 Hanli Zhang
-    </h1>
-    <p class="desc">Lausanne, Switzerland.</p>
-  </header>
+        <main class="portfolio-home">
+  <section class="portfolio-hero" aria-labelledby="intro-title">
+  <div class="hero-copy">
+    <p class="eyebrow">ROBOTICS · AI/ML · AUTONOMOUS SYSTEMS</p>
+    <h1 id="intro-title">Building intelligent systems<br /><span>from models to motion.</span></h1>
+    <p class="hero-summary">I’m 张涵俐 Hanli Zhang, a robotics researcher at <a href="https://www.epfl.ch/labs/lasa/">EPFL LASA</a> under the supervision of <a href="https://people.epfl.ch/aude.billard">Prof. Aude Billard</a>, based in Lausanne, Switzerland.</p>
+    <p class="hero-focus">My work connects learning, planning, perception, and control—then tests the result on real robotic systems.</p>
 
-  <article>
-    <div
-      class="profile float-right"
-    > <figure>
-
-  <picture>
-    
-    <source
-        class="responsive-img-srcset"
-        media="(max-width: 480px)"
-        srcset="/assets/img/prof_pic-480.webp"
-      />
-    <source
-        class="responsive-img-srcset"
-        media="(max-width: 800px)"
-        srcset="/assets/img/prof_pic-800.webp"
-      />
-    <source
-        class="responsive-img-srcset"
-        media="(max-width: 1400px)"
-        srcset="/assets/img/prof_pic-1400.webp"
-      />
-    
-
-    <!-- Fallback to the original file -->
-    <img
-      src="/assets/img/prof_pic.jpg"
-      class="img-fluid z-depth-1 rounded"
-      width="auto"
-      height="auto"
-      
-      
-      
-      
-      alt="prof_pic.jpg"
-      
-      
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
-    />
-  </picture>
-
-</figure>
-
-      <div class="more-info"><p><a href="https://www.epfl.ch/labs/lasa/">EPFL LASA</a></p> <p>Lausanne, Switzerland</p>
-</div>
+    <div class="hero-actions">
+      <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="/assets/pdf/Hanli_Zhang_Robotics_Core.pdf" target="_blank" rel="noopener">Robotics résumé <span aria-hidden="true">↗</span></a>
     </div>
 
-    <div class="clearfix"><p>I’m 张涵俐 Hanli Zhang, a robotics researcher at <a href="https://www.epfl.ch/labs/lasa/">EPFL LASA</a> under the supervision of <a href="https://people.epfl.ch/aude.billard">Prof. Aude Billard</a>, based in Lausanne, Switzerland.</p>
+    <div class="hero-links" aria-label="Contact and profiles">
+      <a href="mailto:hanlizhangzhl@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>
+      <a href="https://www.linkedin.com/in/hanli-zhang"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://github.com/hanlizhang"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+    </div>
+  </div>
 
-<p>My work spans robotics, machine learning, and human-robot interaction, with previous experience in AGV localization, robot perception, and drag-aware planning for quadrotors.</p>
+  <div class="hero-visual" aria-label="Portrait of Hanli Zhang">
+    <div class="portrait-frame">
+      <img src="/assets/img/prof_pic.jpg" alt="Hanli Zhang" width="1642" height="1606" />
+    </div>
+    <div class="availability-card">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>Open to robotics &amp; applied AI roles</span>
+    </div>
+  </div>
+</section>
 
-<p>I’m interested in autonomous systems, drones, and intelligent assistant robots.</p>
+<section class="proof-strip" aria-label="Selected outcomes">
+  <div><strong>83%</strong><span>lower simulated tracking error</span></div>
+  <div><strong>49%</strong><span>lower simulated crash rate</span></div>
+  <div><strong>40 FPS</strong><span>on Jetson Xavier NX</span></div>
+  <div><strong>±5 mm</strong><span>AGV pose accuracy</span></div>
+</section>
 
-<p>Contact me at hanlizhangzhl [at] gmail [dot] com.</p>
+<section class="portfolio-section" id="work" aria-labelledby="work-title">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">SELECTED WORK</p>
+      <h2 id="work-title">Evidence, not just keywords.</h2>
+    </div>
+    <p>Projects spanning aerial robotics, embedded perception, robot learning, and visual SLAM—with demos, code, papers, and reports where available.</p>
+  </div>
 
-<!--
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-</div>
-
-    <!-- News -->
-    <h2>
-      <a href="/news/" style="color: inherit">news</a>
-    </h2>          <div class="news">
-            <div class="table-responsive" >
-              <table class="table table-sm table-borderless">
-              
-                <tr>
-                  <th scope="row" style="width: 20%">Nov 15, 2024</th>
-                  <td>
-                    I started my PhD at EPFL LASA on November 15, 2024.
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width: 20%">Oct 22, 2023</th>
-                  <td>
-                    I served as a volunteer of the L4DC’23 at UPenn!
-
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row" style="width: 20%">Sep 1, 2022</th>
-                  <td>
-                    I started my Master at the University of Pennsylvania in 2022.
-
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-    <!-- Latest posts -->
-    <h2>
-      <a href="/blog/" style="color: inherit"
-        >latest posts</a
-      >
-    </h2>
-          <div class="news">
-            
-                <div class="table-responsive" >
-                  <table class="table table-sm table-borderless">
-                  
-                  
-                    <tr>
-                      <th scope="row" style="width: 20%">Apr 24, 2023</th>
-                      <td>
-                        
-                          <a class="news-title" href="/blog/2023/videos/">Drag-Aware Quadrotor Trajectory Video</a>
-                        
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-          </div>
-
-
-    <!-- Selected papers-->
-    
-
-    <!-- Social -->
-    <div class="social">
-      <div class="contact-icons"><a href="mailto:hanlizhangzhl@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="https://github.com/hanlizhang" title="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/hanli-zhang" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://instagram.com/hanli_zhang_" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            
-</div>
-
-      <div class="contact-note">You can contact me via email or any of the social links above.
-</div>
+  <article class="project-feature">
+    <div class="project-media">
+      <video controls="" playsinline="" preload="metadata" poster="/assets/img/quad_lcd_demo.jpg">
+        <source src="/assets/video/quad_lcd_demo_web.mp4" type="video/mp4" />
+        Your browser does not support embedded video. <a href="/assets/video/quad_lcd_demo_web.mp4">Open the demo</a>.
+      </video>
+      <span class="media-label"><i class="fa-solid fa-play" aria-hidden="true"></i> Hardware demo</span>
+    </div>
+    <div class="project-copy">
+      <div class="project-kicker"><span>01</span> Aerial robotics · UPenn GRASP</div>
+      <h3>Drag-Aware Quadrotor Planning &amp; Sim-to-Real Validation</h3>
+      <p>Learned a tracking-cost model from 200,000 simulated trajectories and integrated it into trajectory optimization with an SE(3) controller, then validated the planner on Crazyflie hardware.</p>
+      <div class="project-metrics">
+        <div><strong>83%</strong><span>lower tracking error</span></div>
+        <div><strong>49%</strong><span>lower simulated crash rate</span></div>
+      </div>
+      <div class="tag-list" aria-label="Technologies"><span>Python</span><span>JAX</span><span>Trajectory optimization</span><span>Sim-to-real</span></div>
+      <div class="project-links">
+        <a href="https://arxiv.org/abs/2505.10228">Paper <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/hanlizhang/AeroWrenchPlanner">Code <span aria-hidden="true">↗</span></a>
+        <a href="/assets/video/quad_lcd_demo_web.mp4">Full video <span aria-hidden="true">↗</span></a>
+      </div>
     </div>
   </article>
-</div>
+
+  <article class="project-feature project-feature-reverse">
+    <div class="project-media">
+      <video controls="" muted="" loop="" playsinline="" preload="metadata" poster="/assets/img/f1tenth_demo.jpg">
+        <source src="/assets/video/f1tenth_demo_web.mp4" type="video/mp4" />
+        Your browser does not support embedded video. <a href="/assets/video/f1tenth_demo_web.mp4">Open the demo</a>.
+      </video>
+      <span class="media-label"><i class="fa-solid fa-play" aria-hidden="true"></i> On-car demo</span>
+    </div>
+    <div class="project-copy">
+      <div class="project-kicker"><span>02</span> Robot perception · UPenn xLAB</div>
+      <h3>F1TENTH Depth-Based Navigation</h3>
+      <p>Built a monocular-depth perception and navigation stack combining MiDaS, rangefinder calibration, and depth-guided Follow-the-Gap control. Optimized inference with ONNX/TensorRT for edge deployment.</p>
+      <div class="project-metrics">
+        <div><strong>40 FPS</strong><span>Jetson Xavier NX</span></div>
+        <div><strong>ToF + RGB</strong><span>sensor fusion</span></div>
+      </div>
+      <div class="tag-list" aria-label="Technologies"><span>OpenCV</span><span>ONNX</span><span>TensorRT</span><span>Jetson</span></div>
+      <div class="project-links">
+        <a href="https://github.com/hanlizhang/DepthNav">Code <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/hanlizhang/DepthNav/blob/main/final-report.pdf">Report <span aria-hidden="true">↗</span></a>
+        <a href="/assets/video/f1tenth_demo_web.mp4">Full video <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
+
+  <div class="project-grid">
+    <article class="project-card">
+      <div class="project-card-top">
+        <span class="project-number">03</span>
+        <span class="project-type">Visual SLAM</span>
+      </div>
+      <h3>Gaussian Splatting SLAM with Loop Closure</h3>
+      <p>Extended MonoGS with loop closure, Gaussian-aware covisibility, pose-graph optimization, global bundle adjustment, and CUDA rasterizer visibility metrics.</p>
+      <div class="impact-line"><strong>Up to 23%</strong><span>lower ATE RMSE on tested TUM RGB-D sequences</span></div>
+      <div class="tag-list"><span>PyTorch</span><span>CUDA</span><span>OpenCV</span><span>3DGS</span></div>
+      <a class="card-link" href="https://drive.google.com/file/d/1SHhehph7SDY5q27ETMgHr2FNV_BFI8fb/view?usp=drive_link">Read project report <span aria-hidden="true">↗</span></a>
+    </article>
+
+    <article class="project-card">
+      <div class="project-card-top">
+        <span class="project-number">04</span>
+        <span class="project-type">LLM planning</span>
+      </div>
+      <h3>Task Planning &amp; Evaluation for Robot Manipulation</h3>
+      <p>Supervised and evaluated a planner using structured action primitives, feedback loops, recovery logic, and retune-vs-replan decisions.</p>
+      <div class="impact-line"><strong>85%</strong><span>success over 20 trials, with failure-mode analysis</span></div>
+      <div class="tag-list"><span>LLM agents</span><span>Evaluation</span><span>Planning</span><span>Recovery</span></div>
+      <a class="card-link" href="https://drive.google.com/file/d/1fcYz8e9UB_1xfpSe6-1Ko6UQUkYjYKsY/view?usp=drive_link">Read project report <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+</section>
+
+<section class="portfolio-section experience-section" id="experience" aria-labelledby="experience-title">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">EXPERIENCE</p>
+      <h2 id="experience-title">Research depth. Field-tested engineering.</h2>
+    </div>
+    <p>Experience across human-robot interaction, mobile robots, aerial systems, state estimation, and deployment debugging.</p>
+  </div>
+
+  <div class="experience-list">
+    <article>
+      <div class="experience-meta"><span>EPFL · LASA</span><span>Lausanne, Switzerland</span></div>
+      <h3>Robotics Researcher</h3>
+      <p>Researching coordination-aware modeling for multi-limb human-robot interaction, combining stable dynamical-system motion primitives with cross-limb coupling.</p>
+    </article>
+    <article>
+      <div class="experience-meta"><span>LYF Innovation Ltd., Inc.</span><span>Philadelphia, USA</span></div>
+      <h3>Robotic Engineer Intern</h3>
+      <p>Built a VINS-Fusion visual-inertial state-estimation pipeline with panoramic camera and IMU data, reducing outdoor tracking error by 15%.</p>
+    </article>
+    <article>
+      <div class="experience-meta"><span>Suzhou Beacon Robot Technology Co., Ltd.</span><span>Suzhou, China</span></div>
+      <h3>Algorithm Engineer</h3>
+      <p>Improved AGV localization to ±5 mm pose accuracy, reduced pose-loss events by 30%, refactored 12 ROS/C++ modules, and resolved 30+ field issues.</p>
+    </article>
+  </div>
+</section>
+
+<section class="portfolio-section toolkit-section" aria-labelledby="toolkit-title">
+  <div class="section-heading compact">
+    <div>
+      <p class="eyebrow">TOOLKIT</p>
+      <h2 id="toolkit-title">Built for the full robotics stack.</h2>
+    </div>
+  </div>
+  <div class="toolkit-grid">
+    <div><span>01</span><h3>Robotics</h3><p>ROS1/2, SLAM, localization, mapping, state estimation, sensor fusion</p></div>
+    <div><span>02</span><h3>Planning &amp; control</h3><p>Optimal control, motion planning, trajectory optimization, dynamical systems</p></div>
+    <div><span>03</span><h3>AI &amp; perception</h3><p>PyTorch, JAX, TensorFlow, OpenCV, LLM planning and evaluation</p></div>
+    <div><span>04</span><h3>Deployment</h3><p>C/C++, Python, ONNX, TensorRT, NVIDIA Jetson, Linux, Docker, Git</p></div>
+  </div>
+</section>
+
+<section class="resume-cta" aria-labelledby="resume-title">
+  <div>
+    <p class="eyebrow">ROBOTICS RÉSUMÉ</p>
+    <h2 id="resume-title">Robotics experience, one focused page.</h2>
+    <p>The project, paper, code, and report links inside the PDF are clickable.</p>
+  </div>
+  <div class="resume-links">
+    <a href="/assets/pdf/Hanli_Zhang_Robotics_Core.pdf" target="_blank" rel="noopener">Robotics <span>PDF ↗</span></a>
+  </div>
+</section>
+
+</main>
 
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        &copy; Copyright 2026 Hanli  Zhang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        &copy; Copyright 2026 Hanli  Zhang. Robotics · Applied AI · Autonomous Systems
 
       </div>
     </footer>

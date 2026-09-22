@@ -9,10 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>F1TENTH Autonomous Perception & Navigation | 张涵俐 Hanli Zhang</title>
+    <title>F1TENTH Autonomous Perception & Navigation | Hanli Zhang · Robotics & AI</title>
     <meta name="author" content="Hanli  Zhang" />
-    <meta name="description" content="Perception and navigation methods for F1TENTH autonomous racing platforms." />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <meta name="description" content="Monocular depth, calibrated range sensing, and real-time edge inference for F1TENTH." />
+    <meta name="keywords" content="robotics, machine learning, autonomous systems, SLAM, motion planning, robot perception" />
 
 
     <!-- Bootstrap & MDB -->
@@ -51,60 +51,42 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
-    <!-- Header -->
-    <header>
+    <!-- Header --><header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" aria-label="Primary navigation">
+    <div class="container">
+      <a class="navbar-brand" href="/" aria-label="Hanli Zhang home">
+        <span class="brand-mark">HZ</span>
+        <span class="brand-name">Hanli Zhang <small>张涵俐</small></span>
+      </a>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/">张涵俐 Hanli Zhang</a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
-              </li>
-              
-              <!-- Blog -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
-              </li>
-
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/cv/">cv</a>
-              </li>
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fa-solid fa-moon"></i>
-                  <i class="fa-solid fa-sun"></i>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap align-items-sm-center">
+          <li class="nav-item"><a class="nav-link" href="/#work">work</a></li>
+          <li class="nav-item"><a class="nav-link" href="/#experience">experience</a></li>
+          <li class="nav-item "><a class="nav-link" href="/cv/">résumé</a></li>
+          <li class="nav-item nav-github"><a class="nav-link" href="https://github.com/hanlizhang" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme" aria-label="Change color theme">
+              <i class="fa-solid fa-moon" aria-hidden="true"></i>
+              <i class="fa-solid fa-sun" aria-hidden="true"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <progress id="progress" value="0"><div class="progress-container"><span class="progress-bar"></span></div></progress>
+</header>
 
 
     <!-- Content -->
@@ -115,24 +97,23 @@
 
   <header class="post-header">
     <h1 class="post-title">F1TENTH Autonomous Perception & Navigation</h1>
-    <p class="post-description">Perception and navigation methods for F1TENTH autonomous racing platforms.</p>
+    <p class="post-description">Monocular depth, calibrated range sensing, and real-time edge inference for F1TENTH.</p>
   </header>
 
   <article>
-    <p>This project covers autonomous perception and navigation on F1TENTH platforms, with a focus on robust depth perception and trajectory-level decision support for high-speed operation (not MPC-based).</p>
+    <p>Built a monocular-depth perception and navigation stack by benchmarking depth models, integrating MiDaS, rangefinder calibration, and depth-guided Follow-the-Gap control. ONNX/TensorRT optimization reached 40 FPS on a Jetson Xavier NX.</p>
 
-<p><a href="/assets/video/f1tenth_sakura.mov">Video</a><br />
-<a href="https://github.com/hanlizhang/DepthNav">Repository</a></p>
+<p><a href="/assets/video/f1tenth_demo_web.mp4">Video</a> · <a href="https://github.com/hanlizhang/DepthNav">Repository</a> ·
+<a href="https://github.com/hanlizhang/DepthNav/blob/main/final-report.pdf">Report</a></p>
 
   </article></div>
 
       
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
-        &copy; Copyright 2026 Hanli  Zhang. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
+        &copy; Copyright 2026 Hanli  Zhang. Robotics · Applied AI · Autonomous Systems
 
       </div>
     </footer>
