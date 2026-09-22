@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: ADMM-based Optimal Control for Quadrotor Dynamics with Air Drag
 description: This project at the University of Pennsylvania's GRASP Lab involves advanced control techniques for quadrotors considering air drag. The focus is on applying Alternating Direction Method of Multipliers (ADMM) for optimal control in dynamic environments with air drag factors.
 img: assets/img/1.jpg

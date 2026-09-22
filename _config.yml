@@ -2,18 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 张涵俐 Hanli Zhang # the website title (if blank, full name will be used instead)
+title: Hanli Zhang · Robotics & AI
 first_name: Hanli
 middle_name:
 last_name: Zhang
 email: hanlizhangzhl@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  张涵俐 Hanli Zhang's personal website. Currently a robotics researcher at EPFL LASA, supervised by Prof. Aude Billard. Interests are in autonomous systems, drones, and intelligent assistant robots.
+description: >
+  Hanli Zhang is a robotics researcher working across learning, planning, perception, control, and human-robot interaction.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Robotics · Applied AI · Autonomous Systems
+keywords: robotics, machine learning, autonomous systems, SLAM, motion planning, robot perception
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -48,10 +46,10 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
-max_width: 800px
+max_width: 1120px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -120,9 +118,9 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Hanli # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: 涵俐的部落格 # blog_description will be displayed in your blog page
+blog_name:
+blog_nav_title:
+blog_description:
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -157,31 +155,23 @@ disqus_shortname: x # put your disqus shortname
 # external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
-external_sources:
-  - name: x.com
-    rss_url: https://rss.app/feeds/hGjmz1DTNDjdnPCO.xml
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -209,6 +199,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - blog
+  - news.html
+  - _news
+  - _posts
+  - _posts_old
 keep_files:
   - CNAME
   - .nojekyll
@@ -216,7 +211,6 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jemoji
 
@@ -244,7 +238,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: []
   layouts:
     year: archive-year
     tag: archive-tag

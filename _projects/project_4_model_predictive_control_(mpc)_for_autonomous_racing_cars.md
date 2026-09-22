@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: Model Predictive Control (MPC) for Autonomous Racing Cars
 description: This project at the University of Pennsylvania's xLAB involves applying Model Predictive Control (MPC) techniques to improve performance and safety in autonomous racing cars. The project explores advanced MPC algorithms for dynamic and high-speed autonomous driving.
 img: assets/img/4.jpg
