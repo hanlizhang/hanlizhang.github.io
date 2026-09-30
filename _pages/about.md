@@ -171,6 +171,31 @@ description: Robotics researcher building learning-enabled systems for autonomy,
   </div>
 </section>
 
+<section class="portfolio-section side-project-section" aria-labelledby="side-project-title">
+  <div class="section-heading compact">
+    <div>
+      <p class="eyebrow">INDEPENDENT PROJECT</p>
+      <h2 id="side-project-title">Beyond robotics.</h2>
+    </div>
+  </div>
+  <article class="side-project-card">
+    <a class="side-project-media" href="https://www.youtube.com/shorts/J9iiwr5u3UM" target="_blank" rel="noopener noreferrer" aria-label="Watch the First Move iOS demo on YouTube">
+      <img src="{{ '/assets/img/first_move_demo.jpg' | relative_url }}" alt="First Move iOS app showing the three-step flow for choosing a small action" width="600" height="1067" loading="lazy">
+      <span class="side-project-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+    </a>
+    <div class="side-project-copy">
+      <p class="project-kicker">Personal project · iOS + Web · In development</p>
+      <h3>First Move</h3>
+      <p>A cross-platform app that helps people turn a stuck moment into one small, time-boxed action. I built the app flows, persistent focus sessions, and web/mobile account sync.</p>
+      <div class="tag-list" aria-label="Technologies"><span>TypeScript</span><span>React</span><span>Expo</span><span>Supabase</span></div>
+      <div class="project-links">
+        <a href="https://www.youtube.com/shorts/J9iiwr5u3UM" target="_blank" rel="noopener noreferrer">Watch iOS demo <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/hanlizhang/first-move" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </article>
+</section>
+
 <section class="resume-cta" aria-labelledby="resume-title">
   <div>
     <p class="eyebrow">ROBOTICS RÉSUMÉ</p>
